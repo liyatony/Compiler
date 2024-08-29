@@ -1,0 +1,24 @@
+%{
+#include <stdio.h>
+int countc = 0;
+int countn = 0;
+int countw = 0;
+%}
+%%
+\n\n {countn++ ;return 0;};
+\n { countn++;}
+[ \t]+
+[a-zA-Z0-9]+ { countw++; countc += yyleng; }
+.
+%%
+int main() {
+printf("Enter your input:\n");
+yylex();
+printf("Number of characters = %d\n", countc);
+printf("Number of words = %d\n", countw);
+printf("Number of lines = %d\n", countn);
+return 0;
+}
+int yywrap() {
+return 1;
+}
