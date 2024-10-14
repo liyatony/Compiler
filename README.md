@@ -38,7 +38,7 @@ cc lex.yy.c y.tab.c -o output
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit (git commit -m "Description of changes").
-Push the changes (git push origin feature-branch).
-Open a pull request.
+1. Create a new branch (git checkout -b feature-branch).
+2. Make your changes and commit (git commit -m "Description of changes").
+3. Push the changes (git push origin feature-branch).
+4. Open a pull request.
