@@ -5,37 +5,32 @@ Features
 Technologies
 Installation
 Usage
-Examples
 Contributing
 
 Features
 Lexical Analysis: Programs that count numbers, words, lines, and identify identifiers.
 Parsing: YACC specifications for recognizing arithmetic expressions and identifiers.
 Advanced Concepts: Programs for computing First and Follow sets, ε-closure of NFA, and implementing a calculator using LEX and YACC.
+
 Technologies
 Tools: LEX, YACC
 Programming Language: C
+
 Installation
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/liyatony/Compiler.git
 Navigate to the project directory:
-bash
-Copy code
 cd Compiler
 Ensure you have LEX and YACC installed.
 Usage
 Run any LEX or YACC file using:
 
-bash
-Copy code
+
 lex file.l
 yacc -d file.y
 cc lex.yy.c y.tab.c -o output
 ./output
-Examples
-Counting Lines, Words, and Characters: A LEX program that displays these counts for input text.
-Arithmetic Expression Parsing: A YACC program for validating arithmetic expressions with operators like +, -, and parentheses.
+
+
 Contributing
 Contributions are welcome! Please follow the standard process: fork, create a branch, make changes, and open a pull request.
