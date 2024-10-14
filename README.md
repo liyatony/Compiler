@@ -1,36 +1,25 @@
-This repository contains several programs and documents related to compiler design using tools like LEX and YACC. It includes implementations for lexical analysis, parsing arithmetic expressions, and more.
+# Compiler
 
-Table of Contents
-Features
-Technologies
-Installation
-Usage
-Contributing
+This repository contains several programs and documents related to compiler design using tools like **LEX** and **YACC**. It includes implementations for lexical analysis, parsing arithmetic expressions, and more.
 
-Features
-Lexical Analysis: Programs that count numbers, words, lines, and identify identifiers.
-Parsing: YACC specifications for recognizing arithmetic expressions and identifiers.
-Advanced Concepts: Programs for computing First and Follow sets, ε-closure of NFA, and implementing a calculator using LEX and YACC.
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Technologies
-Tools: LEX, YACC
-Programming Language: C
+## Features
+- **Lexical Analysis**: Programs that count numbers, words, lines, and identify identifiers.
+- **Parsing**: YACC specifications for recognizing arithmetic expressions and identifiers.
+- **Advanced Concepts**: Programs for computing First and Follow sets, ε-closure of NFA, and implementing a calculator using LEX and YACC.
 
-Installation
-Clone the repository:
-git clone https://github.com/liyatony/Compiler.git
-Navigate to the project directory:
-cd Compiler
-Ensure you have LEX and YACC installed.
-Usage
-Run any LEX or YACC file using:
+## Technologies
+- **Tools**: LEX, YACC
+- **Programming Language**: C
 
-
-lex file.l
-yacc -d file.y
-cc lex.yy.c y.tab.c -o output
-./output
-
-
-Contributing
-Contributions are welcome! Please follow the standard process: fork, create a branch, make changes, and open a pull request.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/liyatony/Compiler.git
