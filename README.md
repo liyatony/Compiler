@@ -8,7 +8,7 @@ This repository contains several programs and documents related to compiler desi
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - **Lexical Analysis**: Programs that count numbers, words, lines, and identify identifiers.
@@ -23,22 +23,22 @@ This repository contains several programs and documents related to compiler desi
 1. Clone the repository:
    ```bash
    git clone https://github.com/liyatony/Compiler.git
-   Navigate to the project directory:
-2.Navigate to the project directory:
-  cd Compiler
-3. Ensure you have LEX and YACC installed.
-##Usage
+2. Navigate to the project directory:
+   ```bash
+   cd Compiler
+3.Ensure you have LEX and YACC installed.
+## Usage
 To run any LEX or YACC file:
-  lex file.l
+lex file.l
 yacc -d file.y
 cc lex.yy.c y.tab.c -o output
 ./output
 
-##Contributing
--Contributions are welcome! Please follow these steps:
+## Contributing
+Contributions are welcome! Please follow these steps:
 
 Fork the repository.
--Create a new branch (git checkout -b feature-branch).
--Make your changes and commit (git commit -m "Description of changes").
--Push the changes (git push origin feature-branch).
--Open a pull request.
+Create a new branch (git checkout -b feature-branch).
+Make your changes and commit (git commit -m "Description of changes").
+Push the changes (git push origin feature-branch).
+Open a pull request.
